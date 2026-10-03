@@ -1,0 +1,52 @@
+import java.util.Scanner;
+       public class MenuDrivenCalculator 
+       {
+        public static void main(String[] args) 
+        {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Menu Driven Calculator");
+            System.out.println("1. Addition");
+            System.out.println("2. Subtraction");
+            System.out.println("3. Multiplication");
+            System.out.println("4. Division");
+            System.out.print("Enter your choice: ");
+            int choice = sc.nextInt();
+            System.out.println ( "Entre Number a");
+            int a = sc.nextline();
+            System.out.println (" Entre number B");
+            int b = sc.nextline();
+            Switch (choice)
+            {
+
+                case 1:
+                    int sum  c = a + b;
+                    System.out.println("The value of c is: " + c);;
+                    Break;
+                case 2;
+                    int sub = a - b;
+                    System.out.println("The value of sub is: " + sub);
+                    Break;
+                case 3:
+                    int mul = a * b;
+                    System.out.println("The value of mul is: " + mul);
+                    Break;
+                case 4:
+                    if (b != 0)
+                    {
+                        int div = a / b;
+                        System.out.println("The value of div is: " + div);
+                    }
+                    else
+                    {
+                        System.out.println("Error: Division by zero is not allowed.");
+                    }
+            }
+            
+           
+            
+          
+              
+        }
+
+
+       }
